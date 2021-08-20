@@ -1,0 +1,44 @@
+main{
+  display: flex;
+
+}
+.container{
+  text-align: center;
+  align-items: center;
+  width: 75%;
+  height: 700px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.container h1{
+  letter-spacing: 7px;
+  margin-bottom: 25px;
+}
+.container iframe{
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+.container p{
+  width: 80%;
+  text-align: justify;
+  margin-left: 100px;
+}
+@media screen and (max-width:650px){
+  .container{
+    margin-left: 0px;
+    width: 300px;
+    height: 800px;
+  }
+  .container iframe{
+    width: 90%;
+    height: 400px;
+  }
+  .container p{
+    width: 95%;
+    margin-left: 5px;
+    font-size: 11px;
+  }
+
+}

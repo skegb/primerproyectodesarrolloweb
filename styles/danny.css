@@ -1,0 +1,19 @@
+nav{
+  background: linear-gradient(180deg, rgba(0,0,0,1) 62%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%);
+}
+@media screen and (max-width:650px){
+nav ul{
+  background: linear-gradient(180deg, rgba(0,0,0,1) 62%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%);
+}
+
+}
+
+.nav-container{
+  background: linear-gradient(180deg, rgba(0,0,0,1) 62%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%);
+}
+footer{
+  background: linear-gradient(180deg, rgba(0,0,0,1) 62%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%);
+}
+.card:hover{
+  background: linear-gradient(180deg, rgba(0,0,0,1) 62%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 100%); 
+}

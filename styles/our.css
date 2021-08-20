@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+main{
+  display: flex;
+}
+.container{
+  width: 75%;
+  height: 800px;
+  margin-top: 50px;
+  margin-left: 50px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  text-align: center;
+}
+.card{
+  width: 90%;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.7);
+  margin-left: 50px;
+  border-radius: 10px;
+  margin-top: 200px;
+}
+.title{
+  width: 60%;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.7); 
+  border-radius: 20px; 
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  margin-left: 150px;
+  transform: translateY(-30px);
+}
+.title h1{
+  font-family: 'Baloo 2', cursive;
+  letter-spacing: 8px;
+  background: linear-gradient(180deg, rgba(137,10,4,0.9) 33%, rgba(254,151,0,0.9) 83%, rgba(255,233,39,0.9) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.content{
+  width: 90%;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
